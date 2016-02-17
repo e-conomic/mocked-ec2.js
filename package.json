@@ -1,0 +1,17 @@
+{
+  "name": "mocked-ec2.js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "integration": "mocha --bail live-integration-tests"
+  },
+  "dependencies": {
+    "mocked-data": "gaggle/mocked-data"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.2.26",
+    "keys-of-obj": "gaggle/keys-of-obj",
+    "mocha": "^2.3.4",
+    "must": "^0.13.1"
+  }
+}
