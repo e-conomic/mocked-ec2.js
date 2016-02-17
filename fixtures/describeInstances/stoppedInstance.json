@@ -1,0 +1,108 @@
+{
+  "Reservations": [
+    {
+      "ReservationId": "r-f635925b",
+      "OwnerId": "528578904246",
+      "Groups": [],
+      "Instances": [
+        {
+          "InstanceId": "i-e79a515f",
+          "ImageId": "ami-31ab9b46",
+          "State": {
+            "Code": 80,
+            "Name": "stopped"
+          },
+          "PrivateDnsName": "ip-10-0-2-149.eu-west-1.compute.internal",
+          "PublicDnsName": "",
+          "StateTransitionReason": "",
+          "KeyName": "kon-tiki-development",
+          "AmiLaunchIndex": 0,
+          "ProductCodes": [],
+          "InstanceType": "m3.large",
+          "LaunchTime": "2015-10-13T12:02:25.000Z",
+          "Placement": {
+            "AvailabilityZone": "eu-west-1c",
+            "GroupName": "",
+            "Tenancy": "default"
+          },
+          "Platform": "windows",
+          "Monitoring": {
+            "State": "disabled"
+          },
+          "SubnetId": "subnet-3a3b177c",
+          "VpcId": "vpc-1f011f7d",
+          "PrivateIpAddress": "10.0.2.149",
+          "StateReason": {
+            "Code": "Client.InstanceInitiatedShutdown",
+            "Message": "Client.InstanceInitiatedShutdown: Instance initiated shutdown"
+          },
+          "Architecture": "x86_64",
+          "RootDeviceType": "ebs",
+          "RootDeviceName": "/dev/sda1",
+          "BlockDeviceMappings": [
+            {
+              "DeviceName": "/dev/sda1",
+              "Ebs": {
+                "VolumeId": "vol-e012762f",
+                "Status": "attached",
+                "AttachTime": "2015-10-13T12:02:28.000Z",
+                "DeleteOnTermination": true
+              }
+            }
+          ],
+          "VirtualizationType": "hvm",
+          "ClientToken": "vTDJD1444737745053",
+          "Tags": [
+            {
+              "Key": "Name",
+              "Value": "ami-test"
+            }
+          ],
+          "SecurityGroups": [
+            {
+              "GroupName": "launch-wizard-5",
+              "GroupId": "sg-7bd3771f"
+            }
+          ],
+          "SourceDestCheck": true,
+          "Hypervisor": "xen",
+          "NetworkInterfaces": [
+            {
+              "NetworkInterfaceId": "eni-9e492dc5",
+              "SubnetId": "subnet-3a3b177c",
+              "VpcId": "vpc-1f011f7d",
+              "Description": "Primary network interface",
+              "OwnerId": "528578904246",
+              "Status": "in-use",
+              "MacAddress": "0a:b0:4e:ea:c3:ab",
+              "PrivateIpAddress": "10.0.2.149",
+              "PrivateDnsName": "ip-10-0-2-149.eu-west-1.compute.internal",
+              "SourceDestCheck": true,
+              "Groups": [
+                {
+                  "GroupName": "launch-wizard-5",
+                  "GroupId": "sg-7bd3771f"
+                }
+              ],
+              "Attachment": {
+                "AttachmentId": "eni-attach-b89bbc94",
+                "DeviceIndex": 0,
+                "Status": "attached",
+                "AttachTime": "2015-10-13T12:02:25.000Z",
+                "DeleteOnTermination": true
+              },
+              "PrivateIpAddresses": [
+                {
+                  "PrivateIpAddress": "10.0.2.149",
+                  "PrivateDnsName": "ip-10-0-2-149.eu-west-1.compute.internal",
+                  "Primary": true
+                }
+              ]
+            }
+          ],
+          "EbsOptimized": false
+        }
+      ]
+    }
+  ]
+}

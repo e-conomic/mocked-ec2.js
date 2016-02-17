@@ -1,0 +1,115 @@
+{
+  "Reservations": [
+    {
+      "ReservationId": "r-a61a8a0b",
+      "OwnerId": "528578904246",
+      "Groups": [],
+      "Instances": [
+        {
+          "InstanceId": "i-e403955c",
+          "ImageId": "ami-3faf9f48",
+          "State": {
+            "Code": 16,
+            "Name": "running"
+          },
+          "PrivateDnsName": "ip-10-0-0-64.eu-west-1.compute.internal",
+          "PublicDnsName": "ec2-52-18-54-198.eu-west-1.compute.amazonaws.com",
+          "StateTransitionReason": "",
+          "KeyName": "kon-tiki-development",
+          "AmiLaunchIndex": 0,
+          "ProductCodes": [],
+          "InstanceType": "m3.large",
+          "LaunchTime": "2015-11-10T12:42:12.000Z",
+          "Placement": {
+            "AvailabilityZone": "eu-west-1c",
+            "GroupName": "",
+            "Tenancy": "default"
+          },
+          "Platform": "windows",
+          "Monitoring": {
+            "State": "disabled"
+          },
+          "SubnetId": "subnet-3a3b177c",
+          "VpcId": "vpc-1f011f7d",
+          "PrivateIpAddress": "10.0.0.64",
+          "PublicIpAddress": "52.18.54.198",
+          "Architecture": "x86_64",
+          "RootDeviceType": "ebs",
+          "RootDeviceName": "/dev/sda1",
+          "BlockDeviceMappings": [
+            {
+              "DeviceName": "/dev/sda1",
+              "Ebs": {
+                "VolumeId": "vol-90f8a45f",
+                "Status": "attached",
+                "AttachTime": "2015-11-10T12:42:17.000Z",
+                "DeleteOnTermination": true
+              }
+            }
+          ],
+          "VirtualizationType": "hvm",
+          "ClientToken": "",
+          "Tags": [
+            {
+              "Key": "Name",
+              "Value": "github-e-conomic-2486"
+            }
+          ],
+          "SecurityGroups": [
+            {
+              "GroupName": "development-services",
+              "GroupId": "sg-9040a2f5"
+            }
+          ],
+          "SourceDestCheck": true,
+          "Hypervisor": "xen",
+          "NetworkInterfaces": [
+            {
+              "NetworkInterfaceId": "eni-5ad1fd01",
+              "SubnetId": "subnet-3a3b177c",
+              "VpcId": "vpc-1f011f7d",
+              "Description": "",
+              "OwnerId": "528578904246",
+              "Status": "in-use",
+              "MacAddress": "0a:8a:d8:25:45:95",
+              "PrivateIpAddress": "10.0.0.64",
+              "PrivateDnsName": "ip-10-0-0-64.eu-west-1.compute.internal",
+              "SourceDestCheck": true,
+              "Groups": [
+                {
+                  "GroupName": "development-services",
+                  "GroupId": "sg-9040a2f5"
+                }
+              ],
+              "Attachment": {
+                "AttachmentId": "eni-attach-b31a079f",
+                "DeviceIndex": 0,
+                "Status": "attached",
+                "AttachTime": "2015-11-10T12:42:12.000Z",
+                "DeleteOnTermination": true
+              },
+              "Association": {
+                "PublicIp": "52.18.54.198",
+                "PublicDnsName": "ec2-52-18-54-198.eu-west-1.compute.amazonaws.com",
+                "IpOwnerId": "amazon"
+              },
+              "PrivateIpAddresses": [
+                {
+                  "PrivateIpAddress": "10.0.0.64",
+                  "PrivateDnsName": "ip-10-0-0-64.eu-west-1.compute.internal",
+                  "Primary": true,
+                  "Association": {
+                    "PublicIp": "52.18.54.198",
+                    "PublicDnsName": "ec2-52-18-54-198.eu-west-1.compute.amazonaws.com",
+                    "IpOwnerId": "amazon"
+                  }
+                }
+              ]
+            }
+          ],
+          "EbsOptimized": false
+        }
+      ]
+    }
+  ]
+}
